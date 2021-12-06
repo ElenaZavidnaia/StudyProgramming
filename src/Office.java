@@ -4,7 +4,7 @@ import Humans.Workers.IpotekaManager;
 import Humans.Workers.CreditManager;
 import Humans.Workers.Cashier;
 
-public class Office extends Bank{
+public class Office extends Bank {
     public String officeName;
     public String officeAddress;
     public String numberOfPersonal;
@@ -13,7 +13,7 @@ public class Office extends Bank{
     public String usluga; // хорошо бы завязать на класс услуга
 
     public Office(String bankName, String bankAddress, int bankRank,
-                  String officeName, String officeAddress, String numberOfPersonal, boolean terminalAvailability, boolean bankomatAvailability, String usluga){
+                  String officeName, String officeAddress, String numberOfPersonal, boolean terminalAvailability, boolean bankomatAvailability, String usluga) {
         this.officeName = officeName;
         this.officeAddress = officeAddress;
         this.numberOfPersonal = numberOfPersonal;
@@ -22,20 +22,17 @@ public class Office extends Bank{
         this.usluga = usluga;
     }
 
-    public Office(){
+    public Office() {
 
     }
 
-    /*IpotekaManager Andrey = new IpotekaManager("Андрей", "Петров", "Николаевич",
-            "male", "15.08.1996", "russian", "24-й региональный", "ИО начальника отдела ипотеки всея Руси", "111-111-11",
-            666);*/
-
-    static void getMoneyFromCustomers(Manager manager){
+    static void getMoneyFromCustomers(Manager manager) {
         // получать деньги от клиентов
-        System.out.println("БЕРИ БАБКИ И УХОДИ");
+        System.out.println("КЛАДИ БАБКИ И УХОДИ");
     }
 
-    void giveMoneyToCustomers(){
+    void giveMoneyToCustomers(Manager manager) {
         // выдавать деньги клиентам
+        System.out.println("БЕРИ БАБКИ И УХОДИ");
     }
 }

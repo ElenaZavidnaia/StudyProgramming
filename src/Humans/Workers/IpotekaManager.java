@@ -8,6 +8,9 @@ public class IpotekaManager extends BankWorker {
         super(firstName, lastName, patronymic, gender, birthdayData, nationality, office, position, snils, workWindow);
 
     }
+    public IpotekaManager(){
+
+    }
     void takeIpotecaDocumentsFromCustomer() {
         // принять документы клиента
     }
