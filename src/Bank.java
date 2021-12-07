@@ -1,5 +1,5 @@
 public class Bank {
-    public String bankName;
+    public static String bankName;
     public String bankAddress;
     public int bankRank;
 

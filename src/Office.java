@@ -12,8 +12,7 @@ public class Office extends Bank {
     public boolean bankomatAvailability;
     public String usluga; // хорошо бы завязать на класс услуга
 
-    public Office(String bankName, String bankAddress, int bankRank,
-                  String officeName, String officeAddress, String numberOfPersonal, boolean terminalAvailability, boolean bankomatAvailability, String usluga) {
+    public Office(Bank bank, String officeName, String officeAddress, String numberOfPersonal, boolean terminalAvailability, boolean bankomatAvailability, String usluga) {
         this.officeName = officeName;
         this.officeAddress = officeAddress;
         this.numberOfPersonal = numberOfPersonal;
